@@ -113,6 +113,12 @@ h3 { font-size: var(--fs-h3) }
   padding: .25em 1em;
 }
 
+.section__subtitle--projects{
+  color: var(--clr-accent);
+  font-weight: var(--fw-bold);
+  margin-bottom: 2em;
+}
+
 /* Header */
 nav {display: none;}
 
@@ -240,3 +246,16 @@ nav {display: none;}
     z-index: 2
   }
 }
+
+/* My Projects */
+.my-projects {
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+  text-align: center;
+}
+
+.portfolio{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));  
+}
+
