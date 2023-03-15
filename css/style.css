@@ -139,11 +139,11 @@ header{
 
 @media only screen and (max-width: 600px) {
   .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
   }
   .logo img {
+    display: inline-block;
+    vertical-align: middle;
     max-width: 100%;
     height: auto;
   }
