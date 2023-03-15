@@ -132,7 +132,9 @@ header{
 }
 
 .logo{
+  display: block;
   max-width: 100px;
+  margin: 20px auto 0;
 }
 
 .nav{
@@ -172,6 +174,7 @@ header{
 }
 
 .nav-toggle{
+  margin: 20px 0 auto;
   padding: .5em;
   background: transparent;
   border: 0;
