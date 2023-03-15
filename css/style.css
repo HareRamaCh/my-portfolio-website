@@ -137,6 +137,18 @@ header{
   margin: 20px auto 0;
 }
 
+@media only screen and (max-width: 600px) {
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
 .nav{
   position: fixed;
   background: var(--clr-dark);
