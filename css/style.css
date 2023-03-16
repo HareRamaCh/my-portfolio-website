@@ -492,6 +492,10 @@ header{
 
 }
 
-.portfolio-header__link {
+.portfolio-header__link{
   color: var(--clr-dark);
+}
+
+.portfolio-item--body{
+  margin-bottom:3rem;
 }
