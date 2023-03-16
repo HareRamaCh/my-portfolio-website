@@ -1,7 +1,7 @@
 *,
 *::before,
 *::after{
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 /* Custom Properties */
@@ -30,7 +30,7 @@
     --fs-h1: 4.5rem;
     --fs-h2: 3.75rem;
     --fs-h3: 1.5rem;
-    --fs-body: 1.125rem;
+    --fs-body: 1.25rem;
   }
 }
 

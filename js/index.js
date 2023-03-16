@@ -2,9 +2,9 @@ const navToggle= document.querySelector('.nav-toggle');
 const navLinks= document.querySelectorAll('.nav__link');
 const dynamicText = document.getElementById("dynamic-text");
 const textValues = [
-  "Full-stack Developer",
   "Python Programmer",
-  "Data Analyst"
+  "Data Analyst",
+  "Full-Stack Developer"
 ];
 
 navToggle.addEventListener('click', () => {
