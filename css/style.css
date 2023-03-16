@@ -124,6 +124,21 @@ h3 { font-size: var(--fs-h3) }
   margin-bottom: 2em;
 }
 
+.project-header__link,
+.portfolio-header__link{
+  display: inline-block;
+  font-weight: var(--fw-bold);
+  text-decoration: none;
+}
+
+.project-header__link:hover,
+.portfolio-header__link:hover{
+  text-decoration: underline;
+  opacity: 0.75;
+}
+
+
+
 /* Header */
 header{
   display: flex;
@@ -413,15 +428,8 @@ header{
   opacity: .75;
 }
 
-.header__link {
-  font-weight: var(--fw-bold);
+.project-header__link {
   color: var(--clr-light);
-  text-decoration: none;
-}
-
-.header__link:hover {
-  text-decoration: underline;
-  opacity: 0.75;
 }
 
 /* Footer */
@@ -482,4 +490,8 @@ header{
 .portfolio__item--header{
   margin-bottom: 0.5em;
 
+}
+
+.portfolio-header__link {
+  color: var(--clr-dark);
 }
