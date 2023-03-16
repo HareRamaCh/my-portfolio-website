@@ -6,11 +6,11 @@
 
 /* Custom Properties */
 :root{
-  --ff-primary: 'Poppins', sans-serif;
-  --ff-secondary: 'Sono', sans-serif;
+  --ff-primary: 'Karla', sans-serif;
+  --ff-secondary: 'Roboto Mono', monospace;
 
-  --fw-reg: 300;
-  --fw-bold: 900;
+  --fw-reg: 400;
+  --fw-bold: 800;
 
   --clr-light: #ffffff;
   --clr-dark: #303030;
