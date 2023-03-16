@@ -258,6 +258,10 @@ header{
   box-shadow: var(--bs);
 }
 
+#dynamic-text {
+  transition: opacity 0.5s ease-in-out;
+}
+
 @media (min-width: 600px) {
   .intro {
     display: grid;
@@ -285,6 +289,7 @@ header{
     width: calc(100% + 1.5em);
   }
 }
+
 
 /* My Services Section */
 .my-services{

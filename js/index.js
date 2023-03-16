@@ -1,29 +1,11 @@
 const navToggle= document.querySelector('.nav-toggle');
 const navLinks= document.querySelectorAll('.nav__link');
-
-// Define an array of possible text values
-const textValues = [
-  "Machine Learning Engineer",
-  "Python Programmer",
-  "Data Analyst",
-];
-
-// Get a reference to the <p> element
 const dynamicText = document.getElementById("dynamic-text");
-
-// Define a function to update the text
-function updateText() {
-  // Get a random index from the array of text values
-  const randomIndex = Math.floor(Math.random() * textValues.length);
-    
-  // Set the text inside the <p> element to the selected text value
-  dynamicText.textContent = textValues[randomIndex];
-}
-
-// Call the updateText() function every second using setInterval()
-setInterval(updateText, 4000);
-
-
+const textValues = [
+  "Full-stack Developer",
+  "Python Programmer",
+  "Data Analyst"
+];
 
 navToggle.addEventListener('click', () => {
   document.body.classList.toggle('nav-open');
@@ -34,3 +16,19 @@ navLinks.forEach(link=> {
     document.body.classList.remove('nav-open');
   })
 })
+
+let currentIndex = 0;
+
+function updateText() {
+  dynamicText.style.opacity = 0;
+  setTimeout(() => {
+    dynamicText.textContent = textValues[currentIndex];
+    dynamicText.style.opacity = 1;
+    currentIndex++;
+    if (currentIndex === textValues.length) {
+      currentIndex = 0;
+    }
+  }, 500);
+}
+
+setInterval(updateText, 4000);
