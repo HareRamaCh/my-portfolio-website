@@ -548,3 +548,18 @@ header{
   margin-right: auto;
   margin-bottom: 50px;
 }
+
+.contact-social__link{
+  font-weight: var(--fw-bold);
+  text-decoration: none;
+  padding: 5px 0;
+}
+
+.contact-social__link a:hover {
+  text-decoration: underline;
+  opacity: 0.75;
+}
+
+.contact-social ul{
+  list-style-type: disc;
+}
