@@ -474,6 +474,8 @@ header{
   padding: 0.5em;
 }
 
+/*-------------------------------------------------------------------------------------------*/
+
 /* Individual Portfolio Item Styles */
 .portfolio-item-individual{
   padding: 0 2em 2em;
@@ -498,4 +500,51 @@ header{
 
 .portfolio-item--body{
   margin-bottom:3rem;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+/* About Me */
+/* Set up the fixed table of contents */
+#toc {
+  position:static;
+  top: 20%;
+  left: 20px;
+  padding: 20px;
+  max-width: 350px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  
+}
+
+/* Style the list items */
+#toc ul {
+  list-style:none;
+  margin: 0;
+  padding: 0;
+}
+
+#toc li {
+  margin-bottom: 10px;
+}
+
+/* Style the links */
+#toc a {
+  text-decoration: none;
+  color: #333;
+  opacity: 1;
+}
+
+#toc a:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+.about-me-individual{
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
 }
