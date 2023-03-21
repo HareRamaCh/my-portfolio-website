@@ -125,14 +125,16 @@ h3 { font-size: var(--fs-h3) }
 }
 
 .project-header__link,
-.portfolio-header__link{
+.portfolio-header__link,
+.about-header__link{
   display: inline-block;
   font-weight: var(--fw-bold);
   text-decoration: none;
 }
 
 .project-header__link:hover,
-.portfolio-header__link:hover{
+.portfolio-header__link:hover,
+.about-header__link:hover{
   text-decoration: underline;
   opacity: 0.75;
 }
@@ -430,6 +432,10 @@ header{
 
 .project-header__link {
   color: var(--clr-light);
+}
+
+.about-header__link {
+  color: var(--clr-dark);
 }
 
 /* Footer */
