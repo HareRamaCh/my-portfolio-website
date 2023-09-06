@@ -1,168 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <!-- To ensure proper functioning on devices of all sizes -->
-    <meta name="viewport" content="width=device-width", initial-scale="1.0">
 
-    <title>Hare Rama Chakraborthy</title>
+<head>
+  <meta charset="UTF-8">
+  <!-- To ensure proper functioning on devices of all sizes -->
+  <meta name="viewport" content="width=device-width" , initial-scale="1.0">
 
-    <div class="logo">
-      <a href="index.html"><img src="images/website-logo.png" alt=""></a>
-    </div>
+  <title>Hare Rama Chakraborthy</title>
 
-    <!-- Provides cross-browser consistency -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/
+  <div class="logo">
+    <a href="index.html" aria-label="Home"><img src="images/website-logo.png" alt="Website Logo"></a>
+  </div>
+
+  <!-- Provides cross-browser consistency -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/
     normalize.min.css">
 
-    <!-- Link to font awesome: high-quality icons (needed for social icons)-->
-    <script src="https://kit.fontawesome.com/3246fe18e0.js" crossorigin="anonymous"></script>
+  <!-- Link to font awesome: high-quality icons (needed for social icons)-->
+  <script src="https://kit.fontawesome.com/3246fe18e0.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
 
-    <!-- Custom Font Family-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;800&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+  <!-- Custom Font Family-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;800&family=Roboto+Mono:wght@300&display=swap"
+    rel="stylesheet">
 
-    <!-- Favicon-->
-    <link rel="icon" type="image/png" href="images/favicon-16x16.png">
-  </head>
-  
-  <body>
-    <header>
-      <!-- aria-label to provide screen readers with a descriptive label for the element -->
-      <button class="nav-toggle" aria-label="toggle navigation">
-        <span class="hamburger"></span>
-      </button>
-      <!-- -- or __ means that the class is a modifier.-->
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-          <li class="nav__item"><a href="#services" class="nav__link">What I Do</a></li>
-          <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
-          <li class="nav__item"><a href="#projects" class="nav__link">My Projects</a></li>
-        </ul>
-      </nav>
-    </header>
+  <!-- Favicon-->
+  <link rel="icon" type="image/png" href="images/favicon-16x16.png">
+</head>
 
-    <!-- Introduction Section -->
-    <section class="intro" id="home">
-      <h1 class="section__title section__title--intro">
-        Hello, I am <strong>Hare Rama Chakraborthy</strong>
-      </h1>
-      <p class="section__subtitle section__subtitle--intro">Welcome to my website!</p>
-      <img src="images/hare-rama-plant.jpeg" alt="A picture of Hare" class="intro__img">
-    </section> <!-- Introduction End-->
-
-
-    <!-- My services -->
-    <section class="my-services" id="services">
-      <h2 class="section__title section__title--services">What I do</h2>
-      <div class="services">
-        <div class="service"> 
-          <h3>Full-Stack Development</h3>
-          <p>Developing the front-end and back-end of a website, with the goal of creating a 
-            seamless user experience by making the website user-friendly and functional.
-          </p>
-        </div> <!-- Full-Stack Development End -->
-        <div class="service">
-          <h3>Data Visualization</h3>
-          <p>Creating clear and compelling visual representations of data sets, and transforming 
-            raw data into intuitive, informative visualizations that help clients understand and 
-            act on key insights 
-          </p>
-        </div> <!-- Data Visualization End -->
-        <div class="service">
-          <h3>Machine Learning</h3>
-          <p>Make sense of data sets and uncover insights by designing and implementing advanced 
-             algorithms that can classify data, predict future outcomes, or identify hidden 
-             patterns and trends 
-          </p>
-        </div> <!-- Machine Learning End -->
-      </div> <!-- Services End -->
-     
-      <a href="#projects" class="btn">My Projects</a> <!-- Link to projects -->
-    </section>
-
-
-    <!-- About Me -->
-    <!-- Note to self: Make subtitle dynamic in the future-->
-    <section class="about-me" id="about">
-      <a href="about-me.html" class="about-header__link">
-        <h2 class="section__title section__title--about">I am a</h2>
-      </a>
-      <p class="section__subtitle section__subtitle--about" id="dynamic-text">Full-Stack Developer</p>
-
-      <div class="about-me__body">
-        <p>Hi! I am Hare Rama Chakraborthy, a second-year student at
-          Chennai Institute of Technology.</p>
-        <p>I'm passionate about web development and data analysis. Web development allows me to 
-          channel my creativity to build visually appealing and user-friendly websites. As for 
-          data analysis, I enjoy the challenge of extracting insights from data.</p>
-        <p>When I'm not working on tech projects, I love to read books and play/watch football. 
-          In my free time, I enjoy coding, particularly in the areas of web development and data 
-          analysis.</p>
-      </div>
-
-      <img src="images/hare-rama-wall.jpeg" alt="A picture of Hare" class="about-me__img">
-    </section> <!-- About Me End --> 
-
-
-    <!-- My Projects -->
-    <section class="my-projects" id="projects">
-      <a href="portfolio-item.html" class="project-header__link">
-        <h2 class="section__title section__title--projects">My Projects</h2>
-      </a>
-      <p class="section__subtitle section__subtitle--projects">A selection of my projects</p>
-
-      <div class="portfolio">
-        <!-- Portfolio Item 1 -->
-        <a href="https://github.com/HareRamaCh/Turtle-Projects" class="portfolio__item" target="_blank">
-          <img src="images/turtle-projects-logo.jpeg" 
-          alt="Turtle Projects" class="portfolio__img">
-        </a>
-        <!-- Portfolio Item 2 -->
-        <a href="https://hareramach.github.io/chakraborthys-cookbook/" class="portfolio__item" target="_blank">
-          <img src="images/Chakraborthy's Cookbook-logo.jpeg" 
-          alt="Chakraborthy's Cookbook" class="portfolio__img">
-        </a>
-        <!-- Portfolio Item 3 -->
-        <a href="https://github.com/HareRamaCh/data-science-projects" class="portfolio__item" target="_blank">
-          <img src="images/data-science.jpg" 
-          alt="Machine Learning Projects" class="portfolio__img">
-        </a>
-
-      </div>
-    </section> <!-- My Projects End -->
-
-
-    <!-- Footer -->
-    <footer class="footer">
-      <a href="mailto:harerama500@gmail.com" class="footer__link" target="_blank">
-        harerama500@gmail.com</a>
-      <ul class="social-list">
-        <li class="social-list__item">
-          <a class="social-list__link" href="https://github.com/HareRamaCh" target="_blank">
-            <i class="fa-brands fa-github"></i>
-          </a>
-        </li>
-        <li class="social-list__item">
-          <a class="social-list__link" href="https://linkedin.com/in/hare-rama-chakraborthy" target="_blank">
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
-        </li>
-        <li class="social-list__item">
-          <a class="social-list__link" href="https://twitter.com/hareramach" target="_blank">
-            <i class="fa-brands fa-twitter"></i>
-          </a>
-        </li>
+<body>
+  <header>
+    <!-- aria-label to provide screen readers with a descriptive label for the element -->
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    <!-- -- or __ means that the class is a modifier.-->
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="#services" class="nav__link">What I Do</a></li>
+        <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+        <li class="nav__item"><a href="#projects" class="nav__link">My Projects</a></li>
       </ul>
-    </footer> <!-- Footer End -->
+    </nav>
+  </header>
 
-    <!-- JavaScript Start -->
-    <script src="js/index.js"></script>
- 
-  </body>
+  <!-- Introduction Section -->
+  <section class="intro" id="home">
+    <h1 class="section__title section__title--intro">
+      Hello, I am <strong>Hare Rama Chakraborthy</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">Welcome to my website!</p>
+    <img src="images/hare-rama-plant.jpeg" alt="A picture of Hare" class="intro__img">
+  </section> <!-- Introduction End-->
+
+
+  <!-- My services -->
+  <section class="my-services" id="services">
+    <h2 class="section__title section__title--services">What I do</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Full-Stack Development</h3>
+        <p>Developing the front-end and back-end of a website, with the goal of creating a
+          seamless user experience by making the website user-friendly and functional.
+        </p>
+      </div> <!-- Full-Stack Development End -->
+      <div class="service">
+        <h3>Data Visualization</h3>
+        <p>Creating clear and compelling visual representations of data sets, and transforming
+          raw data into intuitive, informative visualizations that help clients understand and
+          act on key insights
+        </p>
+      </div> <!-- Data Visualization End -->
+      <div class="service">
+        <h3>Machine Learning</h3>
+        <p>Make sense of data sets and uncover insights by designing and implementing advanced
+          algorithms that can classify data, predict future outcomes, or identify hidden
+          patterns and trends
+        </p>
+      </div> <!-- Machine Learning End -->
+    </div> <!-- Services End -->
+
+    <a href="#projects" class="btn">My Projects</a> <!-- Link to projects -->
+  </section>
+
+
+  <!-- About Me -->
+  <!-- Note to self: Make subtitle dynamic in the future-->
+  <section class="about-me" id="about">
+    <a href="about-me.html" class="about-header__link">
+      <h2 class="section__title section__title--about">I am a</h2>
+    </a>
+    <p class="section__subtitle section__subtitle--about" id="dynamic-text">Full-Stack Developer</p>
+
+    <div class="about-me__body">
+      <p>Hi! I am Hare Rama Chakraborthy, a third-year student at
+        Chennai Institute of Technology.</p>
+      <p>I'm passionate about web development and data analysis. Web development allows me to
+        channel my creativity to build visually appealing and user-friendly websites. As for
+        data analysis, I enjoy the challenge of extracting insights from data.</p>
+      <p>When I'm not working on tech projects, I love to read books and play/watch football.
+        In my free time, I enjoy coding, particularly those related to data structures and algorithms</p>
+    </div>
+
+    <img src="images/hare-rama-wall.jpeg" alt="A picture of Hare" class="about-me__img">
+  </section> <!-- About Me End -->
+
+
+  <!-- My Projects -->
+  <section class="my-projects" id="projects">
+    <a href="portfolio-item.html" class="project-header__link">
+      <h2 class="section__title section__title--projects">My Projects</h2>
+    </a>
+    <p class="section__subtitle section__subtitle--projects">A selection of my projects</p>
+
+    <div class="portfolio">
+      <!-- Portfolio Item 1 -->
+      <a href="https://github.com/HareRamaCh/Turtle-Projects" class="portfolio__item" target="_blank">
+        <img src="images/turtle-projects-logo.jpeg" alt="Turtle Projects" class="portfolio__img">
+      </a>
+      <!-- Portfolio Item 2 -->
+      <a href="https://hareramach.github.io/chakraborthys-cookbook/" class="portfolio__item" target="_blank">
+        <img src="images/Chakraborthy's Cookbook-logo.jpeg" alt="Chakraborthy's Cookbook" class="portfolio__img">
+      </a>
+      <!-- Portfolio Item 3 -->
+      <a href="https://github.com/HareRamaCh/data-science-projects" class="portfolio__item" target="_blank">
+        <img src="images/data-science.jpg" alt="Machine Learning Projects" class="portfolio__img">
+      </a>
+
+    </div>
+  </section> <!-- My Projects End -->
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <a href="mailto:harerama500@gmail.com" class="footer__link" target="_blank">
+      harerama500@gmail.com</a>
+    <ul class="social-list">
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://github.com/HareRamaCh" target="_blank" aria-label="GitHub Profile">
+          <i class="fa-brands fa-github" alt="GitHub Icon"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://linkedin.com/in/hare-rama-chakraborthy" target="_blank"
+          aria-label="LinkedIn Profile">
+          <i class="fa-brands fa-linkedin" alt="LinkedIn Icon"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://twitter.com/hareramach" target="_blank" aria-label="Twitter Profile">
+          <i class="fa-brands fa-twitter" alt="Twitter Icon"></i>
+        </a>
+      </li>
+    </ul>
+  </footer> <!-- Footer End -->
+
+  <!-- JavaScript Start -->
+  <script src="js/index.js"></script>
+
+</body>
 
 </html>
